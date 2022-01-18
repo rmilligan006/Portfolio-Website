@@ -17,7 +17,7 @@ Secondary Color: (0F4C75)
     --secondary-color: #e0b354;
     --dark-grey: #2b2b2b;
   }
-  
+
   a {
     color: var(--primary-color);
   }
