@@ -7,7 +7,7 @@ body {
     background: #222;
     font-family: 'Open Sans', sans-serif;
     background-image: url('https://source.unsplash.com/random/?landscape');
-    background-size:contain;
+    background-size:auto;
     font-size: 105%;
 }
 .card {
