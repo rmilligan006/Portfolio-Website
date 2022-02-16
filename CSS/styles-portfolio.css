@@ -59,9 +59,8 @@ body {
   }
 
   .about-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    padding: 50px;
+      width: 100vh;
   }
 
   /* Styles for my Form Box */
