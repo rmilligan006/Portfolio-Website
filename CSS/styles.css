@@ -24,7 +24,7 @@ body {
 }
 
 /* Designs and hover effects */
-  .button, button {
+   button {
     /* overwrites browser defaults and resets the border */
     border: none;
     display: inline-block;
@@ -59,10 +59,10 @@ body {
   }
 
   .about-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    padding: 50px;
+      width: 100vh;
   }
+  
   .form-box {
     display: flex;
     flex-direction: column;
@@ -195,49 +195,7 @@ body {
      transition-duration: .9s;
  }
   /*end of grid */
-  /* start grid fallback */
-.grid__item {
-    display: inline-block;
-    width: 33%;
-   }
-   /* end grid fallback */
-   /* Animation and Media Queries */
-   @keyframes color-change {
-    0% {
-      fill: #edc655;
-    }
-    50% {
-      fill: #fcffad;
-    }
-    100% {
-      fill: #f76414;
-    }
-  }
-  .sun {
-    animation: 4s color-change infinite alternate linear;
-  }
-  @keyframes cloud-move {
-    from {
-      transform: translate(0, 50px);
-    }
-    to {
-      transform: translate(200px, 50px);
-    }
-  }
-  .cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-  }
-  @keyframes cloud-move-reverse {
-    from {
-      transform: translate(446px, 48px);
-    }
-    to {
-      transform: translate(100px, 48px);
-    }
-  }
-  .cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-  }
+ 
    @supports (display: grid) {
     .grid {
       display: grid;

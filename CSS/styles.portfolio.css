@@ -17,7 +17,6 @@ Secondary Color: (0F4C75)
     --secondary-color: #e0b354;
     --dark-grey: #2b2b2b;
   }
-  
   a {
     color: var(--primary-color);
   }
@@ -33,7 +32,7 @@ body {
 }
 
 /* Designs and hover effects */
-  .button, button {
+   button {
     /* overwrites browser defaults and resets the border */
     border: none;
     display: inline-block;
@@ -79,17 +78,10 @@ body {
   }
 
   .about-box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+    padding: 50px;
+      width: 100vh;
   }
+  
   .form-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -347,14 +339,7 @@ body {
              transition-duration: .9s;
  }
   /*end of grid */
-  /* start grid fallback */
-.grid__item {
-    display: inline-block;
-    width: 33%;
-   }
-   /* end grid fallback */
-   /* Animation and Media Queries */
-   
+ 
    @supports (display: grid) {
     .grid {
       display: -ms-grid;
